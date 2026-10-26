@@ -1,0 +1,59 @@
+{
+    "_comment": "面板类型",
+    "panelType": "v2board",
+    "crispToken": "0fecf7e3-523d-4631-a6ab-7bf193202c1f",
+    "addressLog": "https://api.dolphinvpn.sbs/",
+    "libStatus": "0",
+    "linkUrl": "https://www.dolphinvpn.top",
+    "panels": {
+        "dolphin": [
+            {
+                "url": "https://www.ht10000.top/",
+                "description": "主面板"
+            }
+        ]
+    },
+    "proxy": [
+        {
+            "url": "socks5://tusername:password@proxy.example.com:38769",
+            "description": "代理服务器1",
+            "protocol": "s5"
+        }
+    ],
+    "ws": [
+        {
+            "url": "wss://ws.example.com/ws/",
+            "description": "WebSocket服务器1"
+        }
+    ],
+    "update": [
+        {
+            "url": "https://www.ht10000.top",
+            "description": "更新服务器1"
+        }
+    ],
+    "onlineSupport": [
+        {
+            "url": "https://www.ht10000.top/",
+            "description": "在线客服API服务",
+            "apiBaseUrl": "https://www.ht10000.top/",
+            "wsBaseUrl": "wss://www.ht10000.top"
+        }
+    ],
+    "subscription": {
+        "urls": [
+            {
+                "url": "https://www.example-sub1.com",
+                "description": "01",
+                "endpoints": {
+                    "v2": {
+                        "path": "{{'/api/v2/subscription-encrypt/{token}'}}",
+                        "requiresToken": false,
+                        "method": "GET",
+                        "description": "V2 加密订阅接口，token在路径中"
+                    }
+                }
+            }
+        ]
+    }
+}

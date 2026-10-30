@@ -3,7 +3,7 @@
     "panelType": "v2board",
     "crispToken": "0fecf7e3-523d-4631-a6ab-7bf193202c1f",
     "addressLog": "https://api.dolphinvpn.sbs/",
-    "libStatus": "0",
+    "libStatus": "1",
     "linkUrl": "https://www.dolphinvpn.top",
     "panels": {
         "dolphin": [
